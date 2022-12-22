@@ -10,6 +10,18 @@
 html {
     scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background-color: white
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #38a99d;
+}
 body {
     font-family: 'Work Sans', sans-serif
 }
